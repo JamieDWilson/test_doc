@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Typography
-parent: running_omg
+parent: Running OMG
 nav_order: 1
 ---
