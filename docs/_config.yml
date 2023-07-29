@@ -1,4 +1,4 @@
-theme: just-the-docs
+remote_theme: just-the-docs
 title: test documentation
 description: getting started with documentation
 color_scheme: dark
