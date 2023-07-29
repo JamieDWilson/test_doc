@@ -1,4 +1,5 @@
 remote_theme: just-the-docs
 title: test documentation
 description: getting started with documentation
+# Color scheme supports "light" (default) and "dark"
 color_scheme: dark
