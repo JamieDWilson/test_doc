@@ -5,7 +5,7 @@ parent: Model Description
 nav_order: 2
 ---
 
-# Changing Parameters
+# Governing Equations
 {: .no_toc }
 
 ## Table of contents
