@@ -1,10 +1,10 @@
 ---
 layout: default
-title: installation
+title: Installation
 nav_order: 2
 ---
 
 # installation instructions
 
-![pony](/docs/assets/pony)
+![pony](/docs/assets/pony.png)
 
