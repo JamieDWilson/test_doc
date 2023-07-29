@@ -5,4 +5,5 @@ nav_order: 2
 ---
 
 # installation instructions
-blaaaah blah
+
+![pony](/docs/assets/pony.png)
