@@ -19,6 +19,9 @@ OMG(3000...
 	);
 ```
 
+{: .note }
+To make things easier to read, comment and edit, you can use the line-continuation (three dots: '...') to separate out the parameter inputs when writing a script. The advantage of this approach is that parameters can be altered easily and within loops.
+
 We can change any number of parameters from their defaults in the same way:
 
 ```matlab
@@ -31,5 +34,6 @@ OMG(3000...
 	);
 ```
 
-(Note that each new parameter name/value pair is followed by ... and each new parameter line begins with a comma. This makes it easy to quickly delete a line or copy/paste a new line in)
+{: .note }
+Each new parameter name/value pair is followed by the line-continuation '...' and each new parameter line begins with a comma. This makes it easy to quickly delete a line or copy/paste a new line in.
 
