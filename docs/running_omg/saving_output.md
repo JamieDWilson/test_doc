@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Changing Parameters
+title: Saving Output
 parent: Running OMG
 nav_order: 3
 ---
 
-# Changing Parameters
+# Saving Output
 {: .no_toc }
 
 ## Table of contents
@@ -56,11 +56,11 @@ Lastly, output can be loaded directly into the MATLAB workspace like a normal fu
 
 ---
 
-##Relevant Parameters
+## Relevant Parameters
 
 1. `gen_pars.save_output_directory` (string): name of output directory to write output to
 2. `gen_pars.save_intra` (integer): number of intra-annual steps to save (1 = annual, 4 = seasonal, 12 = monthly)
-3. `gen_pars.save_timeseries_output` (numerical array): Text format timeseries (year mid-points, e.g., [0.5:1:9.5])
-4. `gen_pars.save_timeslice_output` (numerical array): netCDF format timeslices (year mid-points, e.g., [9.5])
+3. `gen_pars.save_timeseries_output` (numerical array): year mid-points for text output, e.g., [0.5:1:9.5])
+4. `gen_pars.save_timeslice_output` (numerical array): year mid-points for 2D/3D outputs (year mid-points, e.g., [9.5])
 5. `gen_pars.save_matlab_output` (logical): sae as MATLAB format?
 
