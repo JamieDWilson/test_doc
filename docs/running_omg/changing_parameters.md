@@ -14,7 +14,11 @@ nav_order: 2
 1. TOC
 {:toc}
 
+---
+
 The OMG function can take additional optional inputs to override any of the default parameters. This can be done in two ways: 1) directly in the function call and 2) via a pre-defined script. These options are *not* mutually exclusive!
+
+---
 
 ## Defining parameters via the OMG function 
 
@@ -46,10 +50,12 @@ OMG(3000...
 ```
 
 {: .note }
-Each parameter name/value pair begins with a comma and ends with `...`. This makes it easy to quickly delete a line or copy/paste a new line in.
+Each parameter name/value pair begins with a comma and ends with `...` This makes it easy to quickly delete a line or copy/paste a new line in.
 
 {: .note }
 Adding a comment on each parameter line helps keep track of what you're doing.
+
+---
 
 ## Defining parameters via a script
 
@@ -74,6 +80,8 @@ OMG(3000...
 	);
 ```
 
+---
+
 ## Changing parameters via both a script and the function call
 
 Both options for setting parameters can be used simultaneously. For example, you can set a large number of parameters that are fixed for an ensemble of experiments and then change specific parameters for each experiment within in the function call:
@@ -82,9 +90,11 @@ Both options for setting parameters can be used simultaneously. For example, you
 % Run OMG with default parameters with a number of different parameter values
 OMG(3000...
 	,'ocean_config','new_setup'...			% parameter script
-	,'bgc_pars.restore_timescale	',60 ... 	% a weaker restoring timescale (days)
+	,'bgc_pars.restore_timescale',60 ... 		% a weaker restoring timescale for biological PO4 uptake (days)
 	);
 ```
+
+---
 
 ## Relevant Parameters
 1. `ocean_config` (string) - the name of a script containing parameter values in `OMG/config_files` 
