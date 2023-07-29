@@ -14,10 +14,22 @@ These have to appear as pairs of 1) the parameter name as a string and 2) the pa
 For example, we can add a parameter name/value pair to define the name of the output directory to _basic_run_
 
 ```matlab
-OMG(3000,...
-	'gen_pars.save_output_directory','basic_run'... % name of experiment
+OMG(3000...
+	,'gen_pars.save_output_directory','basic_run'... % name of experiment
 	);
 ```
 
+We can change any number of parameters from their defaults in the same way:
 
+```matlab
+OMG(3000...
+    	,'gen_pars.save_output_directory','basic_run'... % name of experiment
+	,'bgc_pars.uptake_scheme','restoring'... % restore to PO4 observations
+	,'bgc_pars.restore_timescale',30... % restoring timescale (days)
+	,'bgc_pars.restore_data_file','PO4_Obs.mat'...	% observations
+	,'bgc_pars.CARBCHEM_select',false... % turn off the carbon cycle
+	);
+```
+
+(Note that each new parameter name/value pair is followed by ... and each new parameter line begins with a comma. This makes it easy to quickly delete a line or copy/paste a new line in)
 
