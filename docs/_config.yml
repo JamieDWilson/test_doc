@@ -36,3 +36,6 @@ callouts:
   warning:
     title: Warning
     color: red
+
+kramdown:
+  math_engine: katex
