@@ -22,6 +22,6 @@ The default state variables are phosphate (PO4) and dissolved organic phosphorus
 
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
-\[ \nabla_\boldsymbol{x} J(\boldsymbol{x}) ]\
+%% \frac{d\text{DOP}}{dt} = \mathbf{A} \text{DOP} + J_{up}^{DOP} - J_{remin}^{DOP} + J_{force}^{DOP} %%
 
 
