@@ -22,4 +22,6 @@ The default state variables are phosphate (PO4) and dissolved organic phosphorus
 
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
+\[ \nabla_\boldsymbol{x} J(\boldsymbol{x}) ]\
+
 
