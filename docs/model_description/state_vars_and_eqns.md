@@ -48,7 +48,7 @@ $$ \frac{dx\text{O}_2}{dt} = x\text{O}_2 - J_{gasex}^{\text{O}_2} + J_{force}^{x
 
 ## Revelant Parameters
 
-`bgc_pars.CARBCHEM_select` (logical): turn carbon cycle tracers on (DIC, Alkalinity and atmospheric CO2)
-`bgc_pars.O2_select` (logical): turn oxyegn cycle tracers on (dissolved oxygen, atmospheric O2)
+1. `bgc_pars.CARBCHEM_select` (logical): turn carbon cycle tracers on (DIC, Alkalinity and atmospheric CO2)
+2. `bgc_pars.O2_select` (logical): turn oxyegn cycle tracers on (dissolved oxygen, atmospheric O2)
 
 
