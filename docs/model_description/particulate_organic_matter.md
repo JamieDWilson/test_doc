@@ -39,7 +39,9 @@ $$ J_{remin}^{POP} (z)  =\underbrace{(1-r) J_{up}^{POP} \cdot exp(\dfrac{(z-z0)}
 $$ J_{remin}^{POP} (z) = J_{up}^{POP} \cdot \big(\frac{z}{z0}\big)^{-b} $$
 
 {: .note } Any POP remaining at the seafloor is remineralised in the deepest grid-box of the water column.
+
 {: .note } implicait reminerailsation schemes can be made spatially variable by passing a 1D array to `bgc_pars.POC_martin_b` 
+
 ---
 
 ## Terms, Units and Relevant Parameters
