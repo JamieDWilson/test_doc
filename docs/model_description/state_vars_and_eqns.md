@@ -24,7 +24,7 @@ $$ \frac{d\text{PO}_4}{dt} = \mathbf{A} \text{PO}_{4} - \underbrace{\big( J_{up}
 
 $$ \frac{d\text{DOP}}{dt} = \mathbf{A} \text{DOP} + J_{up}^{DOP} - J_{remin}^{DOP} + J_{force}^{DOP} $$
 
-where \(\mathbf{A}\) is the transport matrix that represents the net ocean transport diagnosed from GENiE (see Section LINK). Biogeochemical source/sink terms are described in the following sections.
+where $\mathbf{A}$ is the transport matrix that represents the net ocean transport diagnosed from GENiE (see Section LINK). Biogeochemical source/sink terms are described in the following sections.
 
 ## Carbon Cycle DIC, Alkalinity and atmospheric CO2
 
