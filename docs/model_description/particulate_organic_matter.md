@@ -50,12 +50,8 @@ $$ J_{remin}^{POP} (z) = J_{up}^{POP} \cdot \big(\frac{z}{z0}\big)^{-b} $$
 * $\lambda_{DOP}$ - fraction of export production to DOP (unitless): `bgc_pars.DOP_frac`
 * $z$ - depth (m)
 * $r$ - fraction of POM to second exponential decay term (unitless): `bgc_pars.POC_frac_2` 
-* $el_1$ - \textit{e}-folding depth of POM in first exponential decay term (m): `bgc_pars.POC_eL1` 
-* $el_2$ - \textit{e}-folding depth of POM in second exponential decay term (m): `bgc_pars.POC_eL2` 
+* $el_1$ - _e_-folding depth of POM in first exponential decay term (m): `bgc_pars.POC_eL1` 
+* $el_2$ - _e_-folding depth of POM in second exponential decay term (m): `bgc_pars.POC_eL2` 
 * $b$ - exponent controlling attenutation (unitless): `bgc_pars.POC_martin_b` 
 
-
-
-* all excess POM not remineralised is remineralised entirely in the deepest grid-box of the corresponding water column.
-* the Martin Curve can be made spatially variable by passing a 1D array to \texttt{bgc\_pars.POC\_martin\_b} 
 
