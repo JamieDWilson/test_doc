@@ -32,7 +32,7 @@ $$
 \gamma=0.0, \Omega\leqslant1.0
 $$
 
-{:note}
+{:.note}
 To set a globally uniform PIC:POC ratio, set `bgc_pars.red_PIC_POC_mod = 0.0`
 
 ---
@@ -45,7 +45,7 @@ $$
 J_{diss}^{CaCO_3} = F^{CaCO_3}_{z}=\underbrace{(1-r) J_{up}^{CaCO3} \cdot exp(\dfrac{(z-z0)}{el_1})}_\text{fraction 1} + \underbrace{rJ_{up}^{CaCO3} \cdot exp(\dfrac{(z-z0)}{el_2})}_\text{fraction 2}
 $$
 
-{:note}
+{:.note}
 All excess CaCO$_{3}$ not remineralised is remineralised entirely in the deepest grid-box of the corresponding water column.
 
 ---
