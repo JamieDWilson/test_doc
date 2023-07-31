@@ -23,11 +23,11 @@ The net transport of dissolved tracers by ocean circulation from timestep $n$ to
 
 $$ \mathbf{c^{n+1}} = \mathbb{A} \mathbf{c^{n}} + \mathbf{q} $$
 
-\begin{itemize}
-\item $\mathbf{c}$ - a tracer (mol kg$^{-1}$)
-\item $\mathbf{A}$ - the transport matrix
-\item $\mathbf{q}$ - sources/sinks (mol kg$^{-1}$ year$^{-1}$)
-\end{itemize}
+where: 
+
+* $\mathbf{c}$ - a tracer (mol kg$^{-1}$)
+* $\mathbf{A}$ - the transport matrix
+* $\mathbf{q}$ - sources/sinks (mol kg$^{-1}$ year$^{-1}$)
 
 Each transport matrix is associated with boundary conditions:
 
@@ -38,6 +38,8 @@ Each transport matrix is associated with boundary conditions:
 * $I$ - insolation (units?!)
 
 The transport and associated boundary conditions are available as annually or monthly averaged. The matrix and boudnary conditions are linearly interpolated between monthly averages when timestepping. The transport matrix is discrete in time and so is associated with the timestep that the original GENIE experiment was run at. 
+
+---
 
 ## Construction of the GENIE Transport Matrix
 
@@ -50,4 +52,6 @@ where $\textbf{A}'$ is the transport matrix containing the finite difference ten
 $$ \textbf{c}^{n+1}=(\textbf{I}+\textbf{A}'\Delta t)\textbf{c}^{n}+\textbf{q}'^{n}\Delta t $$
 
 The equation above predicts the tracer field after one timestep ($\textbf{c}^{n+1}$) from the effect of ocean circulation ($\textbf{I}+\textbf{A}'\Delta t$) on the tracer at the previous timestep ($\textbf{c}^{n}$) plus any sources or sinks for the tracer over the timestep ($\textbf{q}'^{n}\Delta t$). In GENIE each tracer experiment diagnoses the tracer distribution resulting from the modelled ocean circulation acting on a unit concentration in a single grid-box, i.e., 1 mol kg$^{-1}$, after one time step.  The resulting concentrations form the coefficients in each column. Therefore, the GENIE transport matrix ($\textbf{A}$) described and used in this study is equivalent to ($\textbf{I}+\textbf{A}'\Delta t$) from equation (\ref{eq:TM_steadystate}).
+
+---
 
