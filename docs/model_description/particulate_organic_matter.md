@@ -2,7 +2,7 @@
 layout: default
 title: Particulate Organic Matter
 parent: Model Description
-nav_order: 5
+nav_order: 6
 ---
 
 # Particulate Organic Matter
