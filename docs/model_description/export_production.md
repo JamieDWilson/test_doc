@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Export Production
+title: Biological Uptake
 parent: Model Description
 nav_order: 4
 ---
 
 
-# Export Production
+# Biological Uptake
 {: .no_toc }
 
 ## Table of contents
@@ -17,9 +17,9 @@ nav_order: 4
 
 ---
 
-The uptake of PO$_4$ and net export production of organic matter is selected by `bgc_pars.uptake_scheme`.
+## Uptake of PO4
 
----
+The uptake of PO$_4$ and net export production of organic matter is selected by `bgc_pars.uptake_scheme`.
 
 ### Michaelis-Menten / Monod
 
@@ -28,15 +28,11 @@ The uptake of PO$_4$ and net export production of organic matter is selected by 
 
 $$ J_{up}=V_{max} \cdot \dfrac{\text{PO}_4}{K_{PO4}+\text{PO}_4} \cdot \dfrac{I}{I_0}  (1-F_{seaice}) $$
 
----
-
 ### Restoring to Observations
 
 `bgc_pars.uptake_scheme = 'restore'`
 
 $$ J_{up}= \frac{1}{\tau}   \text{max}\big( (\text{PO}_4 - \text{PO}_4^{obs}),0 \big)   (1-F_{seaice}) $$
-
----
 
 ### Fixed
 
@@ -48,9 +44,6 @@ $$
  	0, & \text{otherwise}
  	\end{cases}
 $$
-
----
-
 
 ### No Biology
 
