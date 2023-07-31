@@ -17,7 +17,7 @@ nav_order: 8
 
 ---
 
-OMG uses the method of \citet{Follows2006} to solve the local equilibrium carbonate chemistry from Dissolved Inorganic Carbon and Alkalinity. This is primarily used to find the partial pressure of CO$_2$ in the surface ocean in order to calculate $J_{gasex}^{CO_2}$ (Section REF) and the saturation state of calcite ($\Omega$) to calculate $J_{up}^{CaCO_3}$ (Section REF)
+OMG uses the method of \citet{Follows2006} to solve the local equilibrium carbonate chemistry from Dissolved Inorganic Carbon and Alkalinity. This is primarily used to find the partial pressure of CO$_{2}$ in the surface ocean in order to calculate $J_{gasex}^{CO_2}$ (Section REF) and the saturation state of calcite ($\Omega$) to calculate $J_{up}^{CaCO_3}$ (Section REF)
 
 {:.note}
 The solver will take 20 steps before giving a fatal warning that will stop the simulation
