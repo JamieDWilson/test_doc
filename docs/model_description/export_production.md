@@ -21,7 +21,7 @@ The uptake of PO$_4$ and net export production of organic matter is selected by 
 
 ---
 
-### \textit{Michaelis-Menten / Monod}
+### Michaelis-Menten / Monod
 
 `bgc_pars.uptake_scheme = 'MM'`
 
@@ -30,7 +30,7 @@ $$ J_{up}=V_{max} \cdot \dfrac{\text{PO}_4}{K_{PO4}+\text{PO}_4} \cdot \dfrac{I}
 
 ---
 
-### \textit{Restoring to Observations}
+### Restoring to Observations
 
 `bgc_pars.uptake_scheme = 'restore'`
 
@@ -38,9 +38,10 @@ $$ J_{up}= \frac{1}{\tau}   \text{max}\big( (\text{PO}_4 - \text{PO}_4^{obs}),0 
 
 ---
 
-### $\textit{Fixed}
+### Fixed
 
 `bgc_pars.uptake_scheme = ??`
+
 $$
  J_{up}  = \begin{cases}
  	\phi_{prescribed} , &  \text{if}  ([\text{PO}_4] - \phi_{prescribed} )> 0 \\
@@ -51,9 +52,10 @@ $$
 ---
 
 
-### \textit{No Biology}
+### No Biology
 
 `bgc_pars.uptake_scheme = 'strangelove'`
+
 $$ J_{up}= 0.0 $$
 
 ---
