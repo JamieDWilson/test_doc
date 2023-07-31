@@ -5,6 +5,20 @@ parent: Model Description
 nav_order: 3
 ---
 
+
+# Ocean Circulation
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## Ocean Circulation via the transport matrix
+
 The net transport of dissolved tracers by ocean circulation from timestep $n$ to $n+1$ is represented as a transport matrix \citep{Khatiwala2005,Khatiwala2007} diagnosed from cGENIE:
 
 $$ \mathbf{c^{n+1}} = \mathbb{A} \mathbf{c^{n}} + \mathbf{q} $$
