@@ -1,5 +1,6 @@
 remote_theme: just-the-docs/just-the-docs
 title: OMG
+logo: "/assets/omg.png"
 description: getting started with documentation
 # Color scheme supports "light" (default) and "dark"
 color_scheme: dark
