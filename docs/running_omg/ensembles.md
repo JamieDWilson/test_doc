@@ -2,7 +2,7 @@
 layout: default
 title: Running Ensembles
 parent: Running OMG
-nav_order: 6
+nav_order: 7
 ---
 
 # Running Ensembles 
@@ -51,9 +51,12 @@ end
 
 ##  A parallel ensemble varying 2 parameters
 
-You can create an ensemble varying multiple parameters simultaneously. In this case the number of experiments required to explore the model behaviour across the parameter input space can get big very quickly. If you have a computer with multiple cores and the parallel toolbox installed, you can easily save time by invoking a parallel for loop by changing `for` to `parfor`
+{:.warning}
+This requires the parallel toolbox
 
-The following code shows an example ensemble varying the biological uptake rate of PO$_{4}$ and the remineralisation length scale of POM and quantifying the impact on atmospheric CO$_2$. To view the key output quickly the CO$_{2}$ output is saved directly to the workspace and copied to an array which can be plotted against the inputs. 
+You can create an ensemble varying multiple parameters simultaneously. In this case the number of experiments required to explore the model behaviour across the parameter input space can get big very quickly. If you have a computer with multiple cores and the parallel toolbox installed, you can easily save time by invoking a parallel for loop by changing `for` to `parfor`.
+
+The following code shows an example ensemble varying the biological uptake rate of PO4 and the remineralisation length scale of POM and quantifying the impact on atmospheric CO2. To view the key output quickly the CO2 output is saved directly to the workspace and copied to an array which can be plotted against the inputs. 
 
 ```matlab
 % define perturbed parameter arrays
